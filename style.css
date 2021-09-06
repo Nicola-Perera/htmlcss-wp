@@ -13,17 +13,17 @@
 
 /* debug system */
 .debug>.content {
-    height: 900px;
+    height: 940px;
 }
 
 .debug>header {
     height: 100px;
-    background-color: yellow;
+    background-color: violet;
 }
 
 .debug .intro {
     height: 300px;
-    background-color: violet;
+    background-color: yellow;
 }
 
 .debug .leadership {
@@ -46,16 +46,22 @@
     background-color: brown;
 }
 
+/* style content */
+
 body {
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.maincontent {
-    float: left;
+.intro {
+    margin: 1rem 0 1rem;
 }
 
-.sx {
+.leadership {
+    margin-bottom: 1rem;
+}
+
+.maincontent, .sx {
     float: left;
 }
 
@@ -71,4 +77,8 @@ body {
     width: 48%;
     margin-left: 2%;
     margin-right: 2%;
+}
+
+footer {
+    margin-top: .5rem;
 }
