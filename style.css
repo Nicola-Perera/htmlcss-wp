@@ -51,6 +51,7 @@
 body {
     padding-left: 10%;
     padding-right: 10%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .intro {
@@ -81,4 +82,16 @@ body {
 
 footer {
     margin-top: .5rem;
+}
+
+.logo {
+    height: 60px;
+    border-right: 2px solid #f8f8f8;
+    padding-right: 20px;
+    margin-bottom: 2rem;
+}
+
+.nav {
+    color: gray;
+    margin-right: .5rem;
 }
