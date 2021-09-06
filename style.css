@@ -1,0 +1,74 @@
+/* main resets */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* debug system */
+.debug>.content {
+    height: 900px;
+}
+
+.debug>header {
+    height: 100px;
+    background-color: yellow;
+}
+
+.debug .intro {
+    height: 300px;
+    background-color: violet;
+}
+
+.debug .leadership {
+    height: 100px;
+    background-color: teal;
+}
+
+.debug .menu {
+    height: 500px;
+    background-color: yellowgreen;
+}
+
+.debug .maincontent {
+    height: 500px;
+    background-color: tomato;
+}
+
+.debug footer {
+    height: 50px;
+    background-color: brown;
+}
+
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.maincontent {
+    float: left;
+}
+
+.sx {
+    float: left;
+}
+
+.dx {
+    float: right;
+}
+
+.menu {
+    width: 24%;
+}
+
+.maincontent {
+    width: 48%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
